@@ -2,14 +2,11 @@
   "name": "reservation_app",
   "version": "1.0.0",
   "description": "",
-  "engines": {
-    "node": ">=18.0.0"
-  },
   "main": "index.js",
   "type":"module",
   "scripts": {
     "postinstall": "npm run build",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
