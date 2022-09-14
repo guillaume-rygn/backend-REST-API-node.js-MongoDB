@@ -43,7 +43,7 @@ app.use((err, req, res, next) => {
 
 
 
-app.listen(process.env.PORT || 5000, () => {
+app.listen(process.env.PORT || 3001, '0.0.0.0', () => {
   connect();
   console.log("Connected to Backend")
 })
