@@ -8,6 +8,7 @@
   "main": "index.js",
   "type":"module",
   "scripts": {
+    "postinstall": "npm run build",
     "start": "node index.js"
   },
   "author": "",
