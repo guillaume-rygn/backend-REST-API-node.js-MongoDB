@@ -6,6 +6,7 @@ const ReservationSchema = new mongoose.Schema({
     type:String,
     require: true
   },
+
   start_date:{
     type: Date,
     require: true
